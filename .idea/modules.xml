@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../jenkins/jenkins.iml" filepath="$PROJECT_DIR$/../jenkins/jenkins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-jenkins.iml" filepath="$PROJECT_DIR$/test-jenkins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testController/testController.iml" filepath="$PROJECT_DIR$/testController/testController.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testDao/testDao.iml" filepath="$PROJECT_DIR$/testDao/testDao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testEntity/testEntity.iml" filepath="$PROJECT_DIR$/testEntity/testEntity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testService/testService.iml" filepath="$PROJECT_DIR$/testService/testService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testWeb/testWeb.iml" filepath="$PROJECT_DIR$/testWeb/testWeb.iml" />
+    </modules>
+  </component>
+</project>

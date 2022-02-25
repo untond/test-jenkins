@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="testController" />
+        <module name="testWeb" />
+        <module name="testDao" />
+        <module name="testEntity" />
+        <module name="test-jenkins" />
+        <module name="jenkins" />
+        <module name="testService" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jenkins" target="1.8" />
+      <module name="jenkins-Controller" target="1.8" />
+      <module name="jenkins-dao" target="1.8" />
+      <module name="jenkins-entity" target="1.8" />
+      <module name="jenkins-service" target="1.8" />
+      <module name="jenkins-Web" target="1.8" />
+      <module name="test-jenkins" target="1.8" />
+      <module name="testController" target="1.8" />
+      <module name="testDao" target="1.8" />
+      <module name="testEntity" target="1.8" />
+      <module name="testService" target="1.8" />
+      <module name="testWeb" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="jenkins" options="-parameters" />
+      <module name="jenkins-Controller" options="-parameters" />
+      <module name="jenkins-Web" options="-parameters" />
+      <module name="jenkins-dao" options="-parameters" />
+      <module name="jenkins-entity" options="-parameters" />
+      <module name="jenkins-service" options="-parameters" />
+      <module name="test-jenkins" options="-parameters" />
+      <module name="testController" options="-parameters" />
+      <module name="testDao" options="-parameters" />
+      <module name="testEntity" options="-parameters" />
+      <module name="testService" options="-parameters" />
+      <module name="testWeb" options="-parameters" />
+    </option>
+  </component>
+</project>
